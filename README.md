@@ -3,6 +3,10 @@ Utility script for reformatting the TEI XML output of the ITSEE Collation Editor
 
 [![MIT License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat)](https://choosealicense.com/licenses/mit/)
 
+## Before You Continue Reading
+
+For all practical purposes, and especially in terms of user-friendliness, this utility has been superseded by David Flood's Apparatus Explorer (https://github.com/d-flood/apparatus-explorer); for more details, including a web app version of this tool, see https://www.davidaflood.com/blog/an-online-digital-critical-apparatus/. I do not anticipate making any further updates to this project, so if you are using it, consider switching to Apparatus Explorer.
+
 ## About This Project
 
 The Institute for Textual Scholarship and Electronic Editing (ITSEE) has developed and maintains a collation editor that accepts manuscript transcriptions in JSON format (converted from TEI XML format), resegments and classifies them according to user specifications, and outputs a finalized collation in TEI XML format. The editor is freely available as a standalone utility (https://github.com/itsee-birmingham/standalone_collation_editor) or as a component to be embedded in a platform with access to a database (https://github.com/itsee-birmingham/collation_editor_core). Given this editor's status as an established and commonly-used tool for biblical manuscript collation, I have made the open-cbgm library (https://github.com/jjmccollum/open-cbgm) flexible enough to parse ITSEE Collation Editor outputs with minimal changes in formatting. As a result, the only change that needs to be made to the output of the ITSEE Collation Editor for it to work with the open-cbgm library is the addition of local stemmata under its `<app>` (textual apparatus entry) elements.
