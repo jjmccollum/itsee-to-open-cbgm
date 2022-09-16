@@ -1,9 +1,10 @@
 # itsee-to-open-cbgm
 Utility script for reformatting the TEI XML output of the ITSEE Collation Editor for use in the open-cbgm library
 
+![maintenance-status](https://img.shields.io/badge/maintenance-deprecated-red.svg)
 [![MIT License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat)](https://choosealicense.com/licenses/mit/)
 
-## Before You Continue Reading
+## Notice of Deprecation
 
 For all practical purposes, and especially in terms of user-friendliness, this utility has been superseded by David Flood's Apparatus Explorer (https://github.com/d-flood/apparatus-explorer); for more details, including a web app version of this tool, see https://www.davidaflood.com/blog/an-online-digital-critical-apparatus/. I do not anticipate making any further updates to this project, so if you are using it, consider switching to Apparatus Explorer.
 
